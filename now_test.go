@@ -269,4 +269,6 @@ func Example() {
 	Monday()      // 2013-11-18 00:00:00 Mon
 	Sunday()      // 2013-11-24 00:00:00 Sun
 	EndOfSunday() // 2013-11-24 23:59:59.999999999 Sun
+	Tomorrom()    // 2013-11-19 17:51:00 Mon
+	Yesterday()   // 2013-11-17 17:51:00 Mon
 }

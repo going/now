@@ -101,3 +101,11 @@ func MustParse(strs ...string) time.Time {
 func Between(time1, time2 string) bool {
 	return New(time.Now()).Between(time1, time2)
 }
+
+func Tomorrom() time.Time {
+	return New(time.Now()).AddDate(0, 0, 1)
+}
+
+func Yesterday() time.Time {
+	return New(time.Now()).AddDate(0, 0, -1)
+}
